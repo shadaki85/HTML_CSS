@@ -15,11 +15,11 @@
 	ESAME:
 	
 	V* CSS ESTERNO
-	* MENU A TENDINA ORIZZONTALE CON SOTTO ELEMENTI
+	V* MENU A TENDINA ORIZZONTALE CON SOTTO ELEMENTI
 	V* LAYOUT ALMENO A 2 COLONNE
 	* UN FORM FORMATTATO CON CSS USANDO IL CSS 3 E HTML 5
 	* TABELLA FORMATTATA CON CSS
-	* QUALCHE ELEMENTO GRAFICO DI CSS3
+	V* QUALCHE ELEMENTO GRAFICO DI CSS3
 	* VALIDAZIONE DI HTML E CSS
 	
 	Argomento sito a piacimento
@@ -36,9 +36,14 @@
 		<div class="mainContainer">
 			<div class="header"><h1 class="h1zio"><a href="index.html">L'Ortofrutta di &nbsp;<span class="spanzio">Zio Pino</span></a></h1></div>
 			<div class="nav">
-				<ul>
+				<ul class="menu">
 					<li><a href="index.html">HOME</a></li>
-					<li><a href="puntivendita.html">PUNTI VENDITA</a></li>
+					<li><a href="puntivendita.html">PUNTI VENDITA</a>
+						<ul class ="submenu">
+							<li><a href="dovesiamo.html#moncalieri">MONCALIERI</a></li>
+							<li><a href="dovesiamo.html#torino">TORINO</a>
+						</ul>
+					</li>
 					<li><a href="prodotti.html">PRODOTTI</a></li>
 					<li><a href="dovesiamo.html">DOVE SIAMO</a></li>
 					<li><a href="contatti.html">CONTATTI</a></li>
